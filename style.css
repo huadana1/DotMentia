@@ -1,0 +1,55 @@
+body {
+    background-image: url("mini.jpg");
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+    width: 15vw;
+    height: 95%;
+    box-sizing: border-box;
+    margin-top: 2px;
+    padding: 0px;
+    float: right;
+}
+
+li{
+    color: whitesmoke;
+    height: 25%;
+    display: block;
+    background: rgba(100, 0, 40, 0.8);
+    padding-right: 0px;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 20px;
+}
+
+li:hover {
+    background-color: rgba(80, 0, 30, 0.8);
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#Description, #HowItWorks, #Purpose, #Download {
+    background: rgba(110, 10, 50, 0.7);
+    border: 1px solid rgb(59, 59, 59);
+    width: 70vw;
+    display: block;
+    margin-left: 10%;
+    position: absolute;
+    top: 40%;
+    color: whitesmoke;
+    text-align: center;
+}
